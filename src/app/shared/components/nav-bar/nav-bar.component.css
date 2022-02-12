@@ -1,0 +1,70 @@
+.container {
+    width: 100%;
+    background: transparent;
+}
+
+.wrapper {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto; 
+    height: 50px;
+    padding-top:18px;
+}
+
+.nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.nav__logo {
+    width: 60%;
+    font-size: 30px;
+    color: white;
+}
+
+.nav__buttons {
+    width: 40%;
+    display: flex;
+}
+
+.nav__buttons a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo__info a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav__buttons div {
+    text-align: center;
+    margin: auto;
+    color:white;
+}
+
+.hov {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    padding-right: 10px;
+    -webkit-text-stroke: 1px black;
+  }
+
+  .hov:hover, .hov:focus, .hov:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-text-stroke: 1px black;
+  }
+
+  .nav__buttons a:hover {
+    color: #e7be20;
+    transition: 0.5s;
+}
